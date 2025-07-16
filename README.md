@@ -95,7 +95,12 @@ Through structured learning modules and hands-on projects, you'll develop expert
 - Autoregressive Models 
 - Diffusion models 
 
+### Vision and Language
 
+### Robot Learning 
+- Deep Reinforcement Learning
+- Model Learning
+- Robotic Manipulation
 
 ## Technical Stack
 
