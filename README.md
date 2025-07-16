@@ -47,7 +47,9 @@ Through structured learning modules and hands-on projects, you'll develop expert
 - Convolution and pooling
 
 ### CNN Architectures
-
+- Batch Normalization
+- Transfer learning
+- AlexNet, VGG, ResNet
 
 ## Technical Stack
 
