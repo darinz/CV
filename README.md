@@ -51,6 +51,12 @@ Through structured learning modules and hands-on projects, you'll develop expert
 - Transfer learning
 - AlexNet, VGG, ResNet
 
+### Recurrent Neural Networks
+- RNN, LSTM, GRU
+- Language modeling
+- Image captioning
+- Sequence-to-sequence
+
 ## Technical Stack
 
 - **Python**: Primary programming language
