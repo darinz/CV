@@ -39,9 +39,9 @@ Through structured learning modules and hands-on projects, you'll develop expert
 - Multi-layer Perceptron
 - Backpropagation
 
-## Perceiving and Understanding the Visual WorldP
+## Perceiving and Understanding the Visual World
 
-### 
+### Image Classification with CNNs
 
 ## Technical Stack
 
