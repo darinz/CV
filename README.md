@@ -70,6 +70,20 @@ The curriculum balances theoretical understanding with practical implementation,
 - Self-Attention
 - Transformers 
 
+### Multi-Modal Learning
+- Vision-language models (CLIP, DALL-E, GPT-4V)
+- Audio-visual learning
+- Cross-modal retrieval and generation
+- Multimodal fusion strategies
+- Text-to-image and image-to-text models
+
+### Domain Adaptation and Transfer Learning
+- Domain adaptation techniques
+- Few-shot and zero-shot learning
+- Meta-learning for computer vision
+- Cross-domain generalization
+- Domain-invariant representations
+
 ### Object Detection, Image Segmentation, Visualizing and Understanding
 - Single-stage detectors
 - Two-stage detectors
@@ -83,6 +97,13 @@ The curriculum balances theoretical understanding with practical implementation,
 - 3D CNNs
 - Two-stream networks
 - Multimodal video understanding
+
+### Real-time and Streaming Applications
+- Real-time object detection and tracking
+- Video streaming analysis
+- Edge computing for computer vision
+- Latency optimization techniques
+- Mobile and embedded deployment
 
 ### Large Scale Distributed Training
 
