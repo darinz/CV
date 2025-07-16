@@ -20,31 +20,28 @@ Through structured learning modules and hands-on projects, you'll develop expert
 - **Research Understanding**: Analyze and implement cutting-edge computer vision papers
 - **Engineering Best Practices**: Learn production-ready techniques for training and deploying vision models
 
-## Curriculum Structure
+## Deep Learning BasicsCurriculum Structure
 
-### Phase 1: Foundations
-- [ ] Neural Network Basics
-- [ ] Convolutional Neural Networks (CNNs)
-- [ ] Backpropagation and Optimization
-- [ ] Data Preprocessing and Augmentation
+### Image Classification with Linear Classifiers
+- The data-driven approach
+- K-nearest neighbor
+- Linear Classifiers
+- Algebraic / Visual / Geometric viewpoints
+- Softmax loss
 
-### Phase 2: Core Computer Vision Tasks
-- [ ] Image Classification
-- [ ] Object Detection
-- [ ] Image Segmentation
-- [ ] Feature Extraction and Transfer Learning
+### Regularization and Optimization
+- Regularization
+- Stochastic Gradient Descent
+- Momentum, AdaGrad, Adam
+- Learning rate schedules
 
-### Phase 3: Advanced Topics
-- [ ] Attention Mechanisms
-- [ ] Vision Transformers
-- [ ] Self-Supervised Learning
-- [ ] Multi-modal Learning
+### Neural Networks and Backpropagation
+- Multi-layer Perceptron
+- Backpropagation
 
-### Phase 4: Practical Applications
-- [ ] Real-world Project Implementation
-- [ ] Model Deployment
-- [ ] Performance Optimization
-- [ ] Ethical Considerations in Computer Vision
+## Perceiving and Understanding the Visual WorldP
+
+### 
 
 ## Technical Stack
 
