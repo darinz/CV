@@ -20,7 +20,7 @@ Through structured learning modules and hands-on projects, you'll develop expert
 - **Research Understanding**: Analyze and implement cutting-edge computer vision papers
 - **Engineering Best Practices**: Learn production-ready techniques for training and deploying vision models
 
-## Deep Learning BasicsCurriculum Structure
+## Deep Learning Basics
 
 ### Image Classification with Linear Classifiers
 - The data-driven approach
