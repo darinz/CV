@@ -42,6 +42,12 @@ Through structured learning modules and hands-on projects, you'll develop expert
 ## Perceiving and Understanding the Visual World
 
 ### Image Classification with CNNs
+- History
+- Higher-level representations, image features
+- Convolution and pooling
+
+### CNN Architectures
+
 
 ## Technical Stack
 
