@@ -57,6 +57,12 @@ Through structured learning modules and hands-on projects, you'll develop expert
 - Image captioning
 - Sequence-to-sequence
 
+### Attention and Transformers
+- Self-Attention
+- Transformers 
+
+
+
 ## Technical Stack
 
 - **Python**: Primary programming language
