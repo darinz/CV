@@ -4,21 +4,30 @@
 
 ---
 
+Deep learning has fundamentally transformed computer vision, enabling machines to perceive and understand visual information with unprecedented accuracy. Computer vision has become ubiquitous in our society, with applications spanning search engines, image understanding systems, mobile applications, mapping services, medical imaging, drone technology, and autonomous vehicles. From recognizing objects in images to understanding complex scenes in videos, deep learning models have achieved human-level performance on many visual tasks.
+
+Core to many of these applications are visual recognition tasks such as image classification, localization, and object detection. Recent developments in neural network approaches (commonly known as "deep learning") have dramatically advanced the performance of state-of-the-art visual recognition systems. This revolution has been driven by advances in convolutional neural networks, attention mechanisms, and generative models, opening new possibilities in autonomous systems, healthcare, entertainment, and beyond.
+
 ## Overview
 
-This repository provides a comprehensive curriculum for deep learning in computer vision, covering fundamental concepts to advanced applications. Computer vision has revolutionized numerous fields including autonomous vehicles, medical imaging, robotics, and digital media.
+This repository provides a comprehensive curriculum for deep learning in computer vision, covering fundamental concepts to advanced applications. The curriculum is structured to take you from basic linear classifiers through state-of-the-art architectures like Vision Transformers and diffusion models.
 
-The curriculum focuses on practical implementation of deep learning models for visual recognition tasks such as image classification, object detection, and image segmentation. You'll learn to build, train, and deploy state-of-the-art neural networks while gaining hands-on experience with real-world computer vision problems.
+This curriculum is a deep dive into the details of deep learning architectures with a focus on learning end-to-end models for visual recognition tasks, particularly image classification. The learning journey begins with foundational concepts including linear classifiers, neural networks, and backpropagation. You'll then explore convolutional neural networks and their evolution through architectures like AlexNet, VGG, and ResNet. The curriculum advances to modern techniques including attention mechanisms, transformers, and self-supervised learning.
 
-Through structured learning modules and hands-on projects, you'll develop expertise in convolutional neural networks, modern architectures like Vision Transformers, and practical engineering skills for training and optimizing deep learning models.
+Practical applications are emphasized throughout, with hands-on experience in image classification, object detection, image segmentation, and video understanding. You'll also explore cutting-edge areas like generative models (VAEs, GANs, diffusion models), 3D vision, vision-language models, and robotic learning.
+
+The curriculum balances theoretical understanding with practical implementation, ensuring you can both understand the underlying principles and build working systems. Through structured modules and real-world projects, you'll develop the skills needed to tackle current and future challenges in computer vision.
 
 ## Learning Objectives
 
-- **Deep Learning Fundamentals**: Understand the mathematical foundations and architectural principles behind neural networks
-- **Computer Vision Tasks**: Master image classification, object detection, and image segmentation
-- **Practical Implementation**: Build and train state-of-the-art vision models from scratch
-- **Research Understanding**: Analyze and implement cutting-edge computer vision papers
-- **Engineering Best Practices**: Learn production-ready techniques for training and deploying vision models
+- **Foundational Understanding**: Master the mathematical foundations of neural networks, backpropagation, and optimization techniques
+- **CNN Mastery**: Build and train convolutional neural networks, understanding architectures from AlexNet to modern ResNet variants
+- **Modern Architectures**: Implement and understand attention mechanisms, transformers, and self-supervised learning approaches
+- **Computer Vision Tasks**: Develop expertise in image classification, object detection, semantic/instance segmentation, and video understanding
+- **Generative AI**: Build and train generative models including VAEs, GANs, and diffusion models for image synthesis and manipulation
+- **Advanced Applications**: Explore 3D vision, vision-language models, and robotic learning with deep reinforcement learning
+- **Engineering Excellence**: Learn production-ready techniques for large-scale distributed training, model optimization, and deployment
+- **Research Literacy**: Analyze and implement cutting-edge computer vision papers, staying current with the latest developments
 
 ## Deep Learning Basics
 
