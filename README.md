@@ -77,6 +77,26 @@ Through structured learning modules and hands-on projects, you'll develop expert
 
 ### Large Scale Distributed Training
 
+## Generative and Interactive Visual Intelligence
+
+### Self-Supervised Learning
+- Pretext tasks
+- Contrastive learning
+- Multisensory supervision
+
+### 3D Vision
+- 3D shape representations
+- Shape reconstruction
+- Neural implicit representations
+
+### Generative Models 
+- Variational Autoencoders
+- Generative Adversarial Network
+- Autoregressive Models 
+- Diffusion models 
+
+
+
 ## Technical Stack
 
 - **Python**: Primary programming language
