@@ -61,7 +61,21 @@ Through structured learning modules and hands-on projects, you'll develop expert
 - Self-Attention
 - Transformers 
 
+### Object Detection, Image Segmentation, Visualizing and Understanding
+- Single-stage detectors
+- Two-stage detectors
+- Semantic/Instance/Panoptic segmentation
+- Feature visualization and inversion
+- Adversarial examples
+- DeepDream and style transfer
 
+### Video Understanding
+- Video classification
+- 3D CNNs
+- Two-stream networks
+- Multimodal video understanding
+
+### Large Scale Distributed Training
 
 ## Technical Stack
 
