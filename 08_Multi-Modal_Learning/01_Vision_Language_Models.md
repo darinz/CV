@@ -116,7 +116,7 @@ z_q &= \text{Quantize}(z) \in \{1, \ldots, K\}^{H \times W} \\
 
 The transformer models the distribution:
 
-```math$
+```math
 P(z_q|T) = \prod_{i=1}^{H \times W} P(z_{q,i}|z_{q,<i}, T)
 ```
 
@@ -140,23 +140,23 @@ GPT-4V processes both text and images in a unified transformer architecture.
 
 ### 4.1 Multi-Modal Input
 
-$`
+```math
 X = [T_1, T_2, \ldots, T_n, I_1, I_2, \ldots, I_m]
-`
+```
 
 where $`T_i`$ are text tokens and $`I_j`$ are image tokens.
 
 ### 4.2 Vision Encoder
 
-$`
+```math
 I_{tokens} = \text{VisionEncoder}(I) \in \mathbb{R}^{n_I \times d}
-`
+```
 
 ### 4.3 Unified Processing
 
-$`
+```math
 h = \text{Transformer}(X) \in \mathbb{R}^{(n_T + n_I) \times d}
-`
+```
 
 #### Python Example: Unified Transformer Forward Pass
 
