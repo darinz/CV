@@ -31,60 +31,60 @@ The curriculum balances theoretical understanding with practical implementation,
 
 ## Deep Learning Basics
 
-### Image Classification with Linear Classifiers
+### [Image Classification with Linear Classifiers](01_Linear_Classifiers/)
 - The data-driven approach
 - K-nearest neighbor
 - Linear Classifiers
 - Algebraic / Visual / Geometric viewpoints
 - Softmax loss
 
-### Regularization and Optimization
+### [Regularization and Optimization](2gularization_Optimization/)
 - Regularization
 - Stochastic Gradient Descent
 - Momentum, AdaGrad, Adam
 - Learning rate schedules
 
-### Neural Networks and Backpropagation
+### [Neural Networks and Backpropagation](3Neural_Networks/)
 - Multi-layer Perceptron
 - Backpropagation
 
 ## Perceiving and Understanding the Visual World
 
-### Image Classification with CNNs
+### [Image Classification with CNNs](4_CNNs/)
 - History
 - Higher-level representations, image features
 - Convolution and pooling
 
-### CNN Architectures
+### [CNN Architectures](5_CNN_Architectures/)
 - Batch Normalization
 - Transfer learning
 - AlexNet, VGG, ResNet
 
-### Recurrent Neural Networks
+### [Recurrent Neural Networks](6_RNN/)
 - RNN, LSTM, GRU
 - Language modeling
 - Image captioning
 - Sequence-to-sequence
 
-### Attention and Transformers
+### [Attention and Transformers](7nsformers/)
 - Self-Attention
-- Transformers 
+- Transformers
 
-### Multi-Modal Learning
+### [Multi-Modal Learning](08_Multi-Modal_Learning/)
 - Vision-language models (CLIP, DALL-E, GPT-4V)
 - Audio-visual learning
 - Cross-modal retrieval and generation
 - Multimodal fusion strategies
 - Text-to-image and image-to-text models
 
-### Domain Adaptation and Transfer Learning
+### [Domain Adaptation and Transfer Learning](09_Domain_Adaptation/)
 - Domain adaptation techniques
 - Few-shot and zero-shot learning
 - Meta-learning for computer vision
 - Cross-domain generalization
 - Domain-invariant representations
 
-### Object Detection, Image Segmentation, Visualizing and Understanding
+### [Object Detection, Image Segmentation, Visualizing and Understanding](10_Visualizing_Understanding/)
 - Single-stage detectors
 - Two-stage detectors
 - Semantic/Instance/Panoptic segmentation
@@ -92,42 +92,42 @@ The curriculum balances theoretical understanding with practical implementation,
 - Adversarial examples
 - DeepDream and style transfer
 
-### Video Understanding
+### [Video Understanding](11_Video_Understanding/)
 - Video classification
 - 3D CNNs
 - Two-stream networks
 - Multimodal video understanding
 
-### Real-time and Streaming Applications
+### [Real-time and Streaming Applications](12_Real-Time_Applications/)
 - Real-time object detection and tracking
 - Video streaming analysis
 - Edge computing for computer vision
 - Latency optimization techniques
 - Mobile and embedded deployment
 
-### Large Scale Distributed Training
+### [Large Scale Distributed Training](13_Distributed_Training/)
 
 ## Generative and Interactive Visual Intelligence
 
-### Self-Supervised Learning
+### [Self-Supervised Learning](14_Self-Supervised_Learning/)
 - Pretext tasks
 - Contrastive learning
 - Multisensory supervision
 
-### 3D Vision
+### [3D Vision](15_3D_Vision/)
 - 3D shape representations
 - Shape reconstruction
 - Neural implicit representations
 
-### Generative Models 
+### [Generative Models](16_Generative_Models/)
 - Variational Autoencoders
 - Generative Adversarial Network
 - Autoregressive Models 
 - Diffusion models 
 
-### Vision and Language
+### [Vision and Language](17_Vision_Language/)
 
-### Robot Learning 
+### [Robot Learning](18_Robot_Learning/)
 - Deep Reinforcement Learning
 - Model Learning
 - Robotic Manipulation
