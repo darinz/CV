@@ -24,7 +24,7 @@ f_T(T) = \text{Transformer}(T) \in \mathbb{R}^{d}
 
 #### Contrastive Learning
 
-For a batch of $N$ image-text pairs $(I_1, T_1), (I_2, T_2), \ldots, (I_N, T_N)$:
+For a batch of $`N`$ image-text pairs $`(I_1, T_1), (I_2, T_2), \ldots, (I_N, T_N)`$:
 
 ```math
 I_i = \frac{f_I(I_i)}{\|f_I(I_i)\|}, \quad T_i = \frac{f_T(T_i)}{\|f_T(T_i)\|}
@@ -40,7 +40,7 @@ S_{ij} = I_i \cdot T_j^T
 L = -\frac{1}{N} \sum_{i=1}^{N} \log \frac{\exp(S_{ii}/\tau)}{\sum_{j=1}^{N} \exp(S_{ij}/\tau)}
 ```
 
-where $\tau$ is the temperature parameter.
+where $`\tau`$ is the temperature parameter.
 
 #### Zero-Shot Classification
 
@@ -48,7 +48,7 @@ where $\tau$ is the temperature parameter.
 P(y|I) = \frac{\exp(f_I(I) \cdot f_T(T_y)/\tau)}{\sum_{c=1}^{C} \exp(f_I(I) \cdot f_T(T_c)/\tau)}
 ```
 
-where $T_y$ is the text prompt for class $y$.
+where $`T_y`$ is the text prompt for class $`y`$.
 
 ### DALL-E
 
@@ -77,7 +77,7 @@ z_q = \text{Quantize}(z) \in \{1, 2, \ldots, K\}^{H \times W}
 P(z_q|T) = \prod_{i=1}^{H \times W} P(z_{q,i}|z_{q,<i}, T)
 ```
 
-where $T$ is the text prompt.
+where $`T`$ is the text prompt.
 
 ### GPT-4V (GPT-4 Vision)
 
@@ -89,7 +89,7 @@ GPT-4V processes both text and images in a unified transformer architecture.
 X = [T_1, T_2, \ldots, T_n, I_1, I_2, \ldots, I_m]
 ```
 
-where $T_i$ are text tokens and $I_j$ are image tokens.
+where $`T_i`$ are text tokens and $`I_j`$ are image tokens.
 
 #### Vision Encoder
 
@@ -111,7 +111,7 @@ Audio-visual learning combines auditory and visual information for better unders
 
 #### Contrastive Learning
 
-For audio-visual pairs $(a, v)$:
+For audio-visual pairs $`(a, v)`$:
 
 ```math
 f_A(a) = \text{AudioEncoder}(a) \in \mathbb{R}^{d}
@@ -145,7 +145,7 @@ P(w|a, v) = \text{Decoder}(\text{Encoder}(a) + \text{Encoder}(v))
 h_{fusion} = \alpha \cdot h_{audio} + (1 - \alpha) \cdot h_{visual}
 ```
 
-where $\alpha$ is learned or computed based on audio quality.
+where $`\alpha`$ is learned or computed based on audio quality.
 
 ### Sound Localization
 
@@ -220,7 +220,7 @@ p_\theta(x_{t-1}|x_t, T) = \mathcal{N}(x_{t-1}; \mu_\theta(x_t, t, T), \Sigma_\t
 P(w_t|w_{<t}, I) = \text{softmax}(W_{out} h_t + b_{out})
 ```
 
-where $h_t = \text{Decoder}(h_{t-1}, [E_{w_{t-1}}, f_I(I)])$.
+where $`h_t = \text{Decoder}(h_{t-1}, [E_{w_{t-1}}, f_I(I)])`$.
 
 ## Multimodal Fusion Strategies
 
@@ -305,7 +305,7 @@ Advanced models for generating images from textual descriptions.
 q(x_t|x_0) = \mathcal{N}(x_t; \sqrt{\bar{\alpha}_t}x_0, (1-\bar{\alpha}_t)I)
 ```
 
-where $\bar{\alpha}_t = \prod_{s=1}^{t} \alpha_s$.
+where $`\bar{\alpha}_t = \prod_{s=1}^{t} \alpha_s`$.
 
 **Reverse Process:**
 ```math
@@ -348,7 +348,7 @@ x_L \sim p_\theta(x_L|x_{L-1}, c)
 \epsilon_\theta(x_t, t, c) = \epsilon_\theta(x_t, t, \emptyset) + s(\epsilon_\theta(x_t, t, c) - \epsilon_\theta(x_t, t, \emptyset))
 ```
 
-where $s$ is the guidance scale.
+where $`s`$ is the guidance scale.
 
 ### Midjourney
 
@@ -494,7 +494,7 @@ P(w_t|w_{<t}, I) = \text{softmax}(W_{out} h_t + b_{out})
 P(b|q, I) = \text{softmax}(W_{out} \text{Attention}(f_Q(q), f_I(I)) + b_{out})
 ```
 
-where $b$ is the bounding box.
+where $`b`$ is the bounding box.
 
 ### Audio-Visual Scene Understanding
 
